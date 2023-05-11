@@ -9,6 +9,10 @@ module.exports = {
     colors: {
       grey: "#F5F5F5",
     },
+    fontFamily: {
+      "poppins-bold": ["Poppins Bold"],
+      "poppins-regular": ["Poppins Regular"],
+    },
     extend: {
       scale: {
         "-100": "-1",
