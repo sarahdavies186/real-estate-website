@@ -12,6 +12,7 @@ module.exports = {
     fontFamily: {
       "poppins-bold": ["Poppins Bold"],
       "poppins-regular": ["Poppins Regular"],
+      "rubik-semibold": ["Rubik Semi-Bold"]
     },
     extend: {
       scale: {
