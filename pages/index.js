@@ -1,9 +1,9 @@
 import Head from "next/head";
 import HeroSection from "../components/HeroSection";
-import Navbar from "../components/Navbar"
+import Navbar from "../components/Navbar";
 import Properties from "../components/Properties";
-import Services from "../components/Servies"
-
+import Services from "../components/Services";
+import About from "../components/About";
 
 export default function Home() {
   return (
@@ -13,19 +13,11 @@ export default function Home() {
         <meta></meta>
       </Head>
       <main>
-      <section>
-          <Navbar />
-        </section>
-        <section>
-          <HeroSection />
-        </section>
-        <section>
-          <Properties />
-        </section>
-        <section>
-          <Services />
-        </section>
-        
+        <Navbar />
+        <HeroSection />
+        <Properties />
+        <Services />
+        <About />
       </main>
     </div>
   );
