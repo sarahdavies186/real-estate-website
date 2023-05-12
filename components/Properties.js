@@ -1,6 +1,6 @@
 export default function Properties() {
   return (
-    <section className="pt-32 pl-20 pr-20 pb-12 font-poppins-regular">
+    <section className="pt-32 pl-20 pr-20 pb-12 font-poppins-regular  ">
     <div className="">
       <h2 className="font-rubik-semibold  md:text-3xl xl:text-4xl">Best recomendations</h2>
       <h3>Discover our exclusive selection of the finest one-of-a-kind luxury properties architectural masterpieces.</h3>

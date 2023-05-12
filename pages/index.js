@@ -2,6 +2,7 @@ import Head from "next/head";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar"
 import Properties from "../components/Properties";
+import Services from "../components/Servies"
 
 
 export default function Home() {
@@ -20,6 +21,9 @@ export default function Home() {
         </section>
         <section>
           <Properties />
+        </section>
+        <section>
+          <Services />
         </section>
         
       </main>
