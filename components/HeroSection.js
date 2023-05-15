@@ -1,7 +1,7 @@
 export default function HeroSection() {
   return (
     <div className="hero-section bg-grey font-poppins-regular">
-      <section className="bg-grey dark:bg-gray-900 pt-12 pl-20 pr-20 pb-12">
+      <div className="container bg-grey dark:bg-gray-900 pt-12 pl-20 pr-20 pb-12">
         <div className="grid px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-4xl font-rubik-semibold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
@@ -28,7 +28,7 @@ export default function HeroSection() {
             <img src="house.jpg" alt="mockup" />
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 }

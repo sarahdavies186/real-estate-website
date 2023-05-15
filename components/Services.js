@@ -7,8 +7,8 @@ import { Graph } from 'react-iconly'
 
 export default function Services() {
   return (
-    <section className="bg-grey dark:bg-gray-900">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+    <div className="bg-grey dark:bg-gray-900">
+      <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 container">
         <div className="max-w-screen-md mb-8 lg:mb-16">
           <h2 className="font-rubik-semibold  md:text-3xl xl:text-4xl">
             Giving you peace of mind
@@ -92,6 +92,6 @@ export default function Services() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

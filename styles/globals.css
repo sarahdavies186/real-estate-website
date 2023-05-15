@@ -16,3 +16,9 @@
   font-family: "Rubik Semi-Bold";
   src: url("../public/fonts/Rubik-SemiBold.ttf");
 }
+
+.container {
+  max-width: 1440px; /* Set a maximum width for the container */
+  margin-left: auto; /* Automatically adjust left margin */
+  margin-right: auto; /* Automatically adjust right margin */
+}
