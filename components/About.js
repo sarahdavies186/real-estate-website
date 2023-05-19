@@ -19,11 +19,11 @@ export default function () {
           </div>
           <img className="" src="about.png" />
         </div>
-        <div className="place-self-center">
-          <h2 className="font-rubik-semibold md:text-3xl xl:text-4xl pb-4">
+        <div className="place-self-center md:pt-20">
+          <h2 className="font-rubik-semibold text-3xl xl:text-4xl pb-4">
             How much is your property worth now?{" "}
           </h2>
-          <p>
+          <p className="font-poppins-regular text-gray-500">
             We have built our reputation as true local area experts. We have
             gained more knowledge about buyer interests, our neighborhood and
             the market than any other brand because we live locally and work for

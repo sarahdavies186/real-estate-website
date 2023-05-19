@@ -7,16 +7,16 @@ import { Graph } from 'react-iconly'
 
 export default function Services() {
   return (
-    <div className="bg-grey dark:bg-gray-900">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 container">
+    <div className="bg-grey">
+      <div className="p-12 lg:p-24 mx-auto max-w-screen-xl container">
         <div className="max-w-screen-md mb-8 lg:mb-16">
-          <h2 className="font-rubik-semibold  md:text-3xl xl:text-4xl">
+          <h2 className="font-rubik-semibold text-3xl xl:text-4xl">
             Giving you peace of mind
           </h2>
         </div>
-        <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+        <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0 font-poppins-regular">
           <div>
-            <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+            <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
             <Heart stroke='bold' primaryColor='#68B99D' filled="#68B99D" />
             </div>
             <h3 className="mb-2 text-xl font-bold dark:text-white">
@@ -29,7 +29,7 @@ export default function Services() {
             </p>
           </div>
           <div>
-            <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+            <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
             <ShieldDone stroke='bold' primaryColor='#68B99D' filled="#68B99D" />
             </div>
             <h3 className="mb-2 text-xl font-bold dark:text-white">
