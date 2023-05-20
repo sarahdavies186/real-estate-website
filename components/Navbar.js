@@ -9,19 +9,19 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="px-4 flex justify-end pt-4 w-full container">
+      <nav className="px-4 flex justify-end pt-4 w-full container font-poppins-regular">
         <div className="flex-grow">Mulih</div>
         <div
           className={`duration-500 bg-white lg:static absolute md:min-h-fit ${
             isMenuOpen ? "top-0" : "-top-full"
           } md:w-auto w-full flex flex-col px-5`}
         >
-          <div className="flex items-center h-full md:h-auto">
+          <div className="flex items-center h-full md:h-auto pb-4">
             <ul className="flex flex-col items-start md:items-stretch md:flex-row gap-8">
               <li>
                 <a
                   href="/#about"
-                  className=""
+                  className="hover:text-lgreen transition duration-150 ease-in-out"
                 >
                  Home
                 </a>
@@ -29,8 +29,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/#team"
-                  className=""
-                  onClick={() => navigate("/#team")}
+                  className="hover:text-lgreen transition duration-150 ease-in-out"
                 >
                   Properties
                 </a>
@@ -38,8 +37,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/#features"
-                  className=""
-                  onClick={() => navigate("/#features")}
+                  className="hover:text-lgreen transition duration-150 ease-in-out"
                 >
                   About
                 </a>
@@ -47,8 +45,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/#features"
-                  className=""
-                  onClick={() => navigate("/#features")}
+                  className="hover:text-lgreen transition duration-150 ease-in-out"
                 >
                   Services
                 </a>
@@ -56,8 +53,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/#features"
-                  className=""
-                  onClick={() => navigate("/#features")}
+                  className="hover:text-lgreen transition duration-150 ease-in-out"
                 >
                   Contact
                 </a>
