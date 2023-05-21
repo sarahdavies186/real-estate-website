@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Properties from "../components/Properties";
 import Services from "../components/Services";
 import About from "../components/About";
-import { Container } from "postcss";
+import Testimonials from "../components/Testimonials";
 
 export default function Home() {
   return (
@@ -19,6 +19,7 @@ export default function Home() {
         <Properties />
         <Services />
         <About />
+        <Testimonials />
       </main>
     </div>
   );
