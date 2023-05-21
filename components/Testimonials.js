@@ -1,6 +1,6 @@
 export default function Testimonials() {
   return (
-    <div className="md:pt-10 pl-20 pr-20 pb-40 font-poppins-regular container">
+    <div className="md:pt-10 pl-20 pr-20 pb-28 font-poppins-regular container hidden md:block">
       <div className="pb-10">
         <h2 className="font-rubik-semibold text-3xl xl:text-4xl pt-10 pb-2">
           What are our customers saying?

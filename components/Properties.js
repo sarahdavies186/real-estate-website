@@ -1,6 +1,6 @@
 export default function Properties() {
   return (
-    <div className="md:pt-32 pl-20 pr-20 pb-40 font-poppins-regular container">
+    <div className="md:pt-32 pt-10 pb-20 px-10 md:px-20 md:pb-40 font-poppins-regular container">
       <div className="pb-10">
         <h2 className="font-rubik-semibold text-3xl xl:text-4xl pt-10 pb-2">
           Best recomendations
@@ -26,7 +26,7 @@ export default function Properties() {
               $400,000
             </p>
             <a
-              href="#"
+              href="#contact"
               className="flex justify-center px-20 py-2 text-sm font-medium text-center text-lgreen bg-white border border-lgreen hover:bg-lgreen hover:text-white hover:shadow transition duration-150 ease-in-out"
             >
               Send Enquiry
@@ -48,7 +48,7 @@ export default function Properties() {
               $400,000
             </p>
             <a
-              href="#"
+              href="#contact"
               className="flex justify-center px-20 py-2 text-sm font-medium text-center text-lgreen bg-white border border-lgreen hover:bg-lgreen hover:text-white hover:shadow transition duration-150 ease-in-out"
             >
               Send Enquiry
@@ -70,7 +70,7 @@ export default function Properties() {
               $400,000
             </p>
             <a
-              href="#"
+              href="#contact"
               className="flex justify-center px-20 py-2 text-sm font-medium text-center text-lgreen bg-white border border-lgreen hover:bg-lgreen hover:text-white hover:shadow transition duration-150 ease-in-out"
             >
               Send Enquiry
