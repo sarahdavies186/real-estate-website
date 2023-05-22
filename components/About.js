@@ -2,7 +2,7 @@ import { Star } from "react-iconly";
 
 export default function () {
   return (
-    <div className="px-20 pb-20 container">
+    <div className="px-20 pb-10 container">
       <div className="grid md:grid-cols-2 gap-16">
         <div className="">
           <div className="relative left-20 top-20 bg-white w-36 pt-8 pb-8 shadow text-center">

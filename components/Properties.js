@@ -1,8 +1,8 @@
 export default function Properties() {
   return (
-    <div className="md:pt-32 pt-10 pb-20 px-10 md:px-20 md:pb-40 font-poppins-regular container">
+    <div className="px-10 py-20 md:px-20 font-poppins-regular container">
       <div className="pb-10">
-        <h2 className="font-rubik-semibold text-3xl xl:text-4xl pt-10 pb-2">
+        <h2 className="font-rubik-semibold text-3xl xl:text-4xl pb-2">
           Best recomendations
         </h2>
         <h3 className="text-gray-500 lg:w-1/2">
